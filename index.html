@@ -60,8 +60,15 @@
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center"> <!--flexbox kicks in only after medium breakpoint-->
             <h3 class="mb-3 mb-md-0">Sign up for our newsletter</h3><!--margin bottom 3 on big screen, mb on medium none-->
-            </div>
+            
 
+            <div class="input-group news-input"><!--no class to use to make input width shorter. do it in css (news-input)-->
+                <input 
+                    type="text" 
+                    class="form-control" placeholder="Enter e-mail address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-dark btn-lg" type="button" >Submit</button>
+              </div>
+            </div>
         </div>
 
     </section>
