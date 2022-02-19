@@ -1,0 +1,5 @@
+@media(min-width:768px) { /*use media query. apply to medium and over*/
+    .news-input {
+        width: 50%;
+    }
+}
