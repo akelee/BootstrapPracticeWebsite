@@ -1,5 +1,19 @@
+/*to fix image head getting cut off with a fixred navbar*/
+body::before {
+    display: block;
+    content: ' '; /*always need blank content with pseudoclasses ::before and ::after*/
+    height: 60px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
 @media(min-width:768px) { /*use media query. apply to medium and over*/
     .news-input {
         width: 50%;
     }
 }
+
